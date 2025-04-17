@@ -9,6 +9,13 @@
 | `/bin -> /usr/bin` | Essential user binaries (linked to `/usr/bin`). |
 | `/lib -> /usr/lib` | Shared libraries and kernel modules (linked to `/usr/lib`). |
 
+bin vs sbin
+admin--> sbin(you can grant access to admins)
+non-admin --> bin (you can grant access to everyone)
+
+both sbin and bin come under /usr  => /usr/sbin   ,   /usr/bin      (full path)
+
+
 ### **Important System Directories**
 | Directory | Description |
 |-----------|-------------|
@@ -21,7 +28,7 @@
 | Directory | Description |
 |-----------|-------------|
 | `/home` | Default location for user home directories. |
-| `/opt` | Used for installing optional third-party software. |
+| `/opt` | Used for installing optional third-party software. |(make a folder inside opt realted to s/w and download it inside it )
 | `/srv` | Holds data for services like web servers (rarely used in containers). |
 | `/root` | Home directory for the root user. |
 
@@ -40,3 +47,6 @@
 | `/mnt` | Temporary mount point for external filesystems. |
 | `/media` | Mount point for removable media (USB, CDs). |
 | `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
+
+
+/etc --> vvi --> jsut like C drive in Windows or settings on your mobile phone (all the linux environment details are stored here)

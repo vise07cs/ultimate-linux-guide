@@ -15,6 +15,8 @@ To create a new user in Linux, use:
 ### `useradd` Command (For most Linux distributions)
 ```bash
 useradd username
+to verify is user is created --> vim /etc/passwd  or cat /etc/passwd--> check in the bottom 
+
 ```
 This creates a user without a home directory.
 
@@ -38,6 +40,9 @@ This is an interactive command that asks for a password and additional details.
 To set or change a user’s password:
 ```bash
 passwd username
+to verify if password is created -->  cat /etc/shadow -->  (will show encypted password)
+
+can we decrypt the passwoed ? what if the user forgets his pw ??  vvi interview qs --> answer is NO , you cannot decrypt and if someone forgets the password then there is no way you can restore the password . 
 ```
 
 ### Enforcing Password Policies

@@ -20,7 +20,8 @@
 
 🔹 The physical components of the computer (CPU, RAM, disk, network interfaces, etc.).
 🔹 The OS interacts with hardware using device drivers.
-(b) Kernel (Core of Linux OS)
+
+(b) Kernel (Core of Linux OS)   (Engine of the Car)
 
 🔹 The Linux Kernel is responsible for directly managing system resources, including:
 
@@ -39,6 +40,7 @@
 🔹 A command interpreter that allows users to interact with the kernel.
 🔹 Examples: Bash, Zsh, Fish, Dash, Ksh.
 🔹 Converts user commands into system calls for the kernel.
+
 (d) User Applications
 
 🔹 End-user programs like web browsers, text editors, DevOps tools, etc.

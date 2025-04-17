@@ -1,3 +1,12 @@
+Operating system is an intermediary between the user and the computer hardware and software
+
+1960 --> unix (open source)
+1970 --> minix(not open source)
+1980 --> MS windows ( GUI)
+1990s --> Linux --> Linus Torvalds (open source OS )
+2025--> 90% of production is still done on Linux
+
+
 # Linux over Windows
 
 ### Cost-Effectiveness
